@@ -1,0 +1,15 @@
+.card-top{
+    max-height: 250px !important;
+}
+
+.card-top >.card-body{
+    padding: 3% !important;   
+}
+
+.card-body{
+    height: 250px !important;
+}
+img {
+    width: auto; 
+    max-height: 100%; 
+   }

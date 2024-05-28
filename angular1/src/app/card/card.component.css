@@ -1,0 +1,23 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+  }
+  
+  .card-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .card-body {
+    color: #333;
+  }
+  
+  .card-footer {
+    font-style: italic;
+    color: #888;
+  }
+  
