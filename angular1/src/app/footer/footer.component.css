@@ -1,0 +1,39 @@
+.footer {
+    background-color: #ffffff;
+    color: #252424;
+    padding: 30px 0;
+  }
+  
+  .footer h3 {
+    color: #454545;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul li a {
+    color: #797777;
+    text-decoration: none;
+  }
+  
+  .footer .social-icons {
+    list-style: none;
+    padding: 4;
+  }
+  
+  .footer .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer .social-icons li a {
+    color: #151313;
+    font-size: 24px;
+  }
+  

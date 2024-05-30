@@ -1,13 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { IProducto } from '../interfaces/IProducto';
+import { CardComponent } from "../card/card.component";
 
 @Component({
-  selector: 'app-productos',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './productos.component.html',
-  styleUrl: './productos.component.css'
+    selector: 'app-productos',
+    standalone: true,
+    templateUrl: './productos.component.html',
+    styleUrl: './productos.component.css',
+    imports: [CommonModule, CardComponent]
 })
 export class ProductosComponent {
 
@@ -25,4 +26,8 @@ export class ProductosComponent {
     }
   }
 
+  
+
 }
+
+
