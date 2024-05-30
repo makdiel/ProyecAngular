@@ -5,13 +5,14 @@ import { IProducto } from './interfaces/IProducto';
 import { CardComponent } from "./card/card.component";
 import { FooterComponent } from './footer/footer.component';
 import { MatMenuModule } from '@angular/material/menu';
+import { MenuComponent } from "./menu/menu.component";
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [RouterOutlet, ProductosComponent, CardComponent,FooterComponent]
+    imports: [RouterOutlet, ProductosComponent, CardComponent, FooterComponent, MenuComponent]
 })
 export class AppComponent {
   title = 'Productos';
